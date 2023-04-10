@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+p {
+    padding: 0.2em 1em 0;
+}
+
+.main {
+    width: clamp(0px, 100vw, 50vh);
+    margin: 0 auto;
+    /* background-color: #FAD40A; */
+    font-size: clamp(0px, 6vw, 3vh);
+}
+
+.header {
+    background-color: #FAD40A;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 0.1em 0.2em;
+}
